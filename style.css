@@ -1699,7 +1699,7 @@ body.login {
 
 .main-navigation .current-menu-item a,
 .main-navigation a:hover {
-  color: #FAF0CA;
+  color: #ffff00;
 }
 
 .page-banner {
@@ -2448,4 +2448,11 @@ body.admin-bar .search-overlay {
 .post-item:last-of-type {
   border-bottom: none;
   margin-bottom: 0;
+}
+
+/*-------My Custom Style Additions--------------*/
+
+.past-event-custom-margin {
+  margin-top: 20px;
+  margin-left: 50px;
 }
