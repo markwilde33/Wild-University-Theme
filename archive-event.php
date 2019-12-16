@@ -31,6 +31,8 @@ get_header(); ?>
   <?php }
   echo paginate_links();
   ?>
+  <hr class="section-break">
+  <h3 class="past-event-custom-margin">View Our Past Events <a href="<?php echo site_url('/past-events')?>">Here</a>.</h3> 
 </div>
 <?php get_footer();
 
