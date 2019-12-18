@@ -13,6 +13,7 @@ get_header();
       </div>
     </div>  
   </div>
+
   <div class="container container--narrow page-section">
   <div class="metabox metabox--position-up metabox--with-home-link">
       <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('program'); ?>"><i class="fa fa-home" aria-hidden="true"></i> All Programs</a> <span class="metabox__main"><?php the_title(); ?> </span></p>
@@ -40,6 +41,7 @@ get_header();
             )
           )
         ));
+
         while($homepageEvents-> have_posts()) {
           $homepageEvents->the_post(); ?>
           <div class="event-summary">
@@ -64,6 +66,7 @@ get_header();
         <?php } wp_reset_postdata();
         ?>
   </div>
+  
 <?php 
 }
 get_footer();
