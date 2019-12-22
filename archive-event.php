@@ -4,7 +4,8 @@ get_header();
 
 pageBanner(array(
   'title' => 'All Events',
-  'subtitle' => 'There is so much magnificence in our events '
+  'subtitle' => 'There is so much magnificence in our events',
+  'photo' => get_theme_file_uri('/images/beach.jpg')
 ));
 ?>
 <div class="container container--narrow page-section">
