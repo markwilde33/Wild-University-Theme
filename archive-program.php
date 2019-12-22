@@ -4,7 +4,8 @@ get_header();
 
 pageBanner(array(
   'title' => 'All Programs',
-  'subtitle' => 'Education underpins all personal development'
+  'subtitle' => 'Education underpins all personal development',
+  'photo' => get_theme_file_uri('/images/mountain.jpg')
 ));
 ?>
 
