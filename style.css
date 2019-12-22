@@ -1736,7 +1736,7 @@ body.login {
 }
 
 .page-banner__bg-image {
-  opacity: .33;
+  opacity: .66;
   background-size: cover;
   position: absolute;
   top: 0;
