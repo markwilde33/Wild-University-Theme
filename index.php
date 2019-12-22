@@ -1,15 +1,14 @@
 <?php
 
-get_header(); ?>
-<div class="page-banner">
-  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg') ?>);"></div>
-  <div class="page-banner__content container container--narrow">
-    <h1 class="page-banner__title">Welcome To Our Blog</h1>
-    <div class="page-banner__intro">
-      <p>Check Out Our Latest News</p>
-    </div>
-  </div>
-</div>
+get_header();
+
+pageBanner(array(
+  'title' => 'Welcome to our blog',
+  'subtitle' => 'Keep up to date with our latest news',
+  'photo' => get_theme_file_uri('/images/books.jpg')
+));
+?>
+
 <div class="container container--narrow page-section">
   <?php while (have_posts()) {
     the_post(); ?>
@@ -27,6 +26,5 @@ get_header(); ?>
   echo paginate_links();
   ?>
 </div>
-<?php get_footer();
 
-?>
+<?php get_footer();?>
