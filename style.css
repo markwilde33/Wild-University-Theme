@@ -1583,7 +1583,7 @@ body.login {
 
 .main-navigation .current-menu-item a,
 .main-navigation a:hover {
-  color: #FAF0CA;
+  color: rgb(233, 236, 57);
 }
 
 .page-banner {
@@ -1620,7 +1620,7 @@ body.login {
 }
 
 .page-banner__bg-image {
-  opacity: .33;
+  opacity: .66;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -2337,7 +2337,7 @@ body.admin-bar .search-overlay {
   margin-bottom: 0;
 }
 
-/* 
-.map-styles {
+
+.misc-custom-margin {
   margin-top: 60px;
-} */
+}
